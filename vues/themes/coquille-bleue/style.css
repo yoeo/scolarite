@@ -1,0 +1,213 @@
+body
+{
+	background:#FFF;
+}
+
+#contenu,
+#contenu-enregistrement
+{
+	margin: 20%;
+	margin-bottom: 0px;
+	padding: 20px;
+	padding-top: 100px;
+	background: #aec8f8 url(scolarite.png) top left no-repeat;
+	border: 2px solid #06A;
+}
+
+#contenu-enregistrement
+{
+	margin-top: 100px;
+}
+
+#contenu
+{
+	margin-top: 10px;
+}
+
+#info
+{
+	color: #F30;
+	font-size: large;
+	font-weight: bold;
+}
+
+#form-enregistrement input
+{
+	border: 1px solid #66F;
+}
+
+#entete-identifiant
+{
+	font-size: large;
+	float: left;
+}
+
+#entete-identifiant a
+{
+	color: #008;
+	text-decoration: none;
+}
+
+#entete-identifiant a:hover
+{
+	background: #FFF;
+}
+
+#entete-deconnecter
+{
+	float: right;
+}
+
+#entete-deconnecter a
+{
+	color: #A00;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#entete-deconnecter a:hover
+{
+	color: #F00;
+	font-size: large;
+}
+
+#entete-fin
+{
+	clear: both;
+}
+
+#menu
+{
+	width: 100%;
+}
+
+#menu td a
+{
+	text-decoration: none;
+}
+
+#menu td a div
+{
+	background: #666;
+	color: #fff;
+	width: 100%;
+	border: solid 1px #333;
+	text-align: center;
+}
+
+#menu td a:hover div
+{
+	background: #aaa;
+}
+
+#credit
+{
+	background: #aec8f8;
+	text-align:center;
+	padding: 5px;
+	margin: 20%;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	font-size: small;
+	border: 2px solid #06A;
+}
+
+#credit a
+{
+	color:#008;
+	text-decoration: none;
+}
+
+#cadre
+{
+	overflow: auto;
+	height: 400px;
+	background: #FFF;
+	border: solid 1px #666;
+}
+
+#boite
+{
+	color: #036;
+	padding: 20px;
+	padding-top: 0px;
+}
+
+.text-important
+{
+	color: #A63;
+}
+
+/* Affichage des éléments */
+#tableau-element
+{
+	width: 100%
+}
+
+#tableau-element-entete td
+{
+	background: #AAA;
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+}
+
+#tableau-element td a
+{
+	text-decoration: none;
+}
+
+.tableau-element-ligne2 td
+{
+	background: #DDF;
+	color: #000;
+	text-align: center;
+}
+
+.tableau-element-ligne1 td
+{
+	background: #FFF;
+	color: #000;
+	text-align: center;
+}
+
+.tableau-supprimer
+{
+	background: url(supprimer.png) top center no-repeat;
+}
+
+/*Ajouter un élément*/
+.tableau-element-ajouter
+{
+	width: 100%;
+}
+
+.tableau-element-ajouter div
+{
+	background: #CCC;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+.tableau-element-ajouter input
+{
+	border: 1px solid #229;
+}
+
+.tableau-element-valider
+{
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.tableau-element-valider input
+{
+	width: 75%;
+	border: 1px solid #229;
+	cursor: pointer;
+	background: #888;
+	font-weight: bold;
+	color: #FFF;
+}
